@@ -1,7 +1,6 @@
 .header-utama {
     display: flex;
     justify-content: space-between;
-    background-color: aquamarine;
     /* padding 20px atas bawah */
     /* padding 40px kiri kanan */
     padding: 20px var(--padding-kiri-kanan); 
@@ -31,7 +30,7 @@
 .body-img {
     background-color: antiquewhite;
     width: 60%;
-    height: 450px;
+    height: 75vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -70,11 +69,11 @@
 }
 
 .footer-title {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
 }
 
 .footer-description {
-    font-size: 16px;
+    font-size: 18px;
     color: grey;
 }

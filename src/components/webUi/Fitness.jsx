@@ -24,18 +24,18 @@ const Fitness = () => {
         <div className='footer-utama'>
             <div className='footer-card'>
                 <div className='footer-icon'>icon</div>
-                <div className='footer-title'>Daily Workout 7 Days a week</div>
-                <div className='footer-description'>Get personalise workouts on a daily basis from professional</div>
+                <div className='footer-title'>Daily Workout 7 Days a Week</div>
+                <div className='footer-description'>Get personalise workouts on a daily basis from professional.</div>
             </div>
             <div className='footer-card'>
                 <div className='footer-icon'>icon</div>
-                <div className='footer-title'>Daily Workout 7 Days a week</div>
-                <div className='footer-description'>Get personalise workouts on a daily basis from professional</div>
+                <div className='footer-title'>Access From Any Platform</div>
+                <div className='footer-description'>Use all the benefit of the service anywhere and on any device.</div>
             </div>
             <div className='footer-card'>
                 <div className='footer-icon'>icon</div>
-                <div className='footer-title'>Daily Workout 7 Days a week</div>
-                <div className='footer-description'>Get personalise workouts on a daily basis from professional</div>
+                <div className='footer-title'>Guides & Community</div>
+                <div className='footer-description'>A private community where we help each others.</div>
             </div>
         </div>
     </>
