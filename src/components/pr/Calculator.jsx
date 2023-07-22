@@ -12,18 +12,26 @@ export default function Calculator() {
 
   function handleTambah() {
     setCounter(Number(input1.current.value) + Number(input2.current.value))
+    input1.current.value = 0
+    input2.current.value = 0
   }
   
   function handleKurang() {
     setCounter(input1.current.value - input2.current.value)
+    input1.current.value = 0
+    input2.current.value = 0
   }
 
   function handleKali() {
     setCounter(input1.current.value * input2.current.value)
+    input1.current.value = 0
+    input2.current.value = 0
   }
 
   function handleBagi() {
     setCounter(input1.current.value / input2.current.value)
+    input1.current.value = 0
+    input2.current.value = 0
   }
 
   return (
