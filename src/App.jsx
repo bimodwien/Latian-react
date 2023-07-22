@@ -1,10 +1,10 @@
-import Calculator from "./components/pr/Calculator";
+
 
 
 function App() {
   return (
     <div className="App">
-      <Calculator />
+      hallo
     </div>
   );
 }
