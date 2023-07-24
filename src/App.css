@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+
+    /* buat supaya border nya dianggap sebagai size content keseluruhan */
+    box-sizing: border-box; 
+}
+
+.App {
+    --padding-kiri-kanan : 40px;
+}

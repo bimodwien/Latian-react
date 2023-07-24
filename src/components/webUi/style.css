@@ -1,0 +1,79 @@
+.header-utama {
+    display: flex;
+    justify-content: space-between;
+    /* padding 20px atas bawah */
+    /* padding 40px kiri kanan */
+    padding: 20px var(--padding-kiri-kanan); 
+}
+
+.header-content {
+    display: flex;
+
+    /* memberi jarak antar child */
+    gap: 50px;
+}
+
+.body-utama {
+    display: flex;
+    align-items: center;
+    padding: 0 var(--padding-kiri-kanan);
+}
+
+.body-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+    height: fit-content;
+}
+
+.body-img {
+    background-color: antiquewhite;
+    width: 60%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body-title {
+    font-size: 2.75rem;
+    font-weight: 600;
+}
+
+.body-description {
+    font-size: 1.25rem;
+    color: rgb(94, 94, 94);
+}
+
+.body-button {
+    /* karena a itu default nya inline, jadinya gapunya height, maka harus dirubah jadi display block / inline-block*/
+    display: block;
+    /* kalo displaynya block, maka harus diatur width nya juga, karena didalam display flex */
+    width: fit-content;
+    background-color: brown;
+    color: azure;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.footer-utama {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px var(--padding-kiri-kanan);
+}
+
+.footer-icon {
+    padding: 10px 0;
+}
+
+.footer-title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.footer-description {
+    font-size: 18px;
+    color: grey;
+}
