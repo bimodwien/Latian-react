@@ -1,0 +1,14 @@
+.inputUtama {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+.inputButton {
+    display: flex;
+    gap:5px;
+}
+
+
+.button {
+    width: fit-content;
+}
